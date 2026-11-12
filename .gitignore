@@ -1,0 +1,13 @@
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+
+# Projeto final (React/Angular)
+node_modules/
+dist/
+build/
+.angular/
+
+# Variáveis de ambiente
+.env
