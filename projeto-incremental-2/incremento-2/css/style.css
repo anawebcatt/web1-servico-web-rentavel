@@ -1,0 +1,327 @@
+/* Estilos do CombinaCor. Visual neutro, para a paleta ser o destaque da página. */
+
+:root {
+  --fundo: #fafafa;
+  --superficie: #ffffff;
+  --texto: #1f2328;
+  --texto-suave: #5c636b;
+  --borda: #d9dde2;
+  --erro: #b3261e;
+  --erro-fundo: #fdecea;
+  --aviso-fundo: #f1f3f5;
+  --raio: 8px;
+  --fonte-codigo: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* O atributo hidden perde para qualquer regra de display, então precisa ser reforçado. */
+[hidden] {
+  display: none !important;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1040px;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+
+  /* Celular: tudo empilhado, na ordem do HTML. */
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  margin: 0 0 12px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 24px;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+a {
+  color: inherit;
+}
+
+code,
+pre {
+  font-family: var(--fonte-codigo);
+  font-size: 0.875rem;
+}
+
+pre {
+  margin: 0 0 12px;
+  padding: 12px;
+  overflow-x: auto;
+  background: var(--aviso-fundo);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+}
+
+.site-header {
+  padding-top: 24px;
+}
+
+.site-header p {
+  margin: 0;
+  color: var(--texto-suave);
+}
+
+/* Ferramenta */
+
+.tool {
+  padding: 20px;
+  background: var(--superficie);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+}
+
+.formulario {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.campo {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+.campo > label,
+.campo > legend {
+  display: block;
+  padding: 0;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.campo-cor {
+  display: flex;
+  gap: 8px;
+}
+
+#seletor-cor {
+  width: 56px;
+  height: 44px;
+  padding: 2px;
+  background: var(--superficie);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  cursor: pointer;
+}
+
+#campo-hex {
+  width: 9em;
+  height: 44px;
+  padding: 0 12px;
+  font-family: var(--fonte-codigo);
+  font-size: 1rem;
+  color: var(--texto);
+  background: var(--superficie);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+}
+
+#campo-hex[aria-invalid='true'] {
+  border-color: var(--erro);
+}
+
+.opcoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.opcoes label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  cursor: pointer;
+}
+
+.opcoes label:has(input:checked) {
+  border-color: var(--texto);
+  box-shadow: inset 0 0 0 1px var(--texto);
+}
+
+.mensagem {
+  margin: 8px 0 0;
+  padding: 8px 12px;
+  border-radius: var(--raio);
+  font-size: 0.9375rem;
+}
+
+.erro {
+  color: var(--erro);
+  background: var(--erro-fundo);
+}
+
+.aviso {
+  margin: 0 0 12px;
+  background: var(--aviso-fundo);
+}
+
+/* Paleta */
+
+.paleta {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.cor {
+  overflow: hidden;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+}
+
+.cor-amostra {
+  height: 96px;
+  border-bottom: 1px solid var(--borda);
+}
+
+.cor-codigos {
+  display: grid;
+  gap: 2px;
+  padding: 10px 12px;
+}
+
+.cor-codigos code {
+  font-size: 0.8125rem;
+  color: var(--texto-suave);
+}
+
+.cor-codigos .cor-hex {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--texto);
+}
+
+.cor-base {
+  font-size: 0.75rem;
+  color: var(--texto-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.css-pronto {
+  margin-bottom: 0;
+}
+
+/* Espaço publicitário */
+
+.ad-slot {
+  display: flex;
+  justify-content: center;
+}
+
+.ad-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  max-width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--texto-suave);
+  border: 1px dashed var(--borda);
+  border-radius: var(--raio);
+}
+
+/* Instruções */
+
+.instructions h2:not(:first-child) {
+  margin-top: 28px;
+}
+
+.instructions ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.instructions dl {
+  margin: 0;
+}
+
+.instructions dt {
+  font-weight: 600;
+}
+
+.instructions dd {
+  margin: 0 0 12px;
+}
+
+.site-footer {
+  padding: 16px 0 24px;
+  border-top: 1px solid var(--borda);
+  color: var(--texto-suave);
+  font-size: 0.875rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--texto);
+  outline-offset: 2px;
+}
+
+/* Desktop: o anúncio fica ao lado da ferramenta e das instruções. */
+@media (min-width: 900px) {
+  body {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    column-gap: 32px;
+  }
+
+  .site-header,
+  .site-footer {
+    grid-column: 1 / -1;
+  }
+
+  .tool,
+  .instructions {
+    grid-column: 1;
+  }
+
+  .ad-slot {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    align-items: flex-start;
+  }
+}

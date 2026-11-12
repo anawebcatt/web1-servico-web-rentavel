@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CombinaCor | Gerador de paletas de cores</title>
+  <meta name="description" content="Escolha uma cor e gere uma paleta de cores que combinam, com os códigos HEX, RGB e HSL prontos para o CSS.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/cores.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>CombinaCor</h1>
+    <p>Escolha uma cor e veja cores que combinam com ela.</p>
+  </header>
+
+  <main class="tool">
+    <form id="formulario" class="formulario" novalidate>
+      <div class="campo">
+        <label for="seletor-cor">Cor base</label>
+        <div class="campo-cor">
+          <input type="color" id="seletor-cor" value="#0047ab">
+          <input type="text" id="campo-hex" value="#0047AB" maxlength="7"
+                 aria-label="Código HEX da cor base" aria-describedby="erro-hex"
+                 autocomplete="off" spellcheck="false">
+        </div>
+        <p id="erro-hex" class="mensagem erro" role="alert" hidden></p>
+      </div>
+
+      <fieldset class="campo">
+        <legend>Tipo de paleta</legend>
+        <div class="opcoes">
+          <label><input type="radio" name="tipo" value="complementar" checked> Complementar</label>
+          <label><input type="radio" name="tipo" value="analoga"> Análoga</label>
+          <label><input type="radio" name="tipo" value="triade"> Tríade</label>
+          <label><input type="radio" name="tipo" value="monocromatica"> Monocromática</label>
+        </div>
+      </fieldset>
+    </form>
+
+    <section class="resultado" aria-labelledby="titulo-paleta">
+      <h2 id="titulo-paleta">Paleta</h2>
+      <p id="aviso-neutra" class="mensagem aviso" role="status" hidden>
+        Cinza, branco e preto não têm matiz, então só a paleta monocromática gera variações dessa cor.
+      </p>
+      <ul id="paleta" class="paleta"></ul>
+
+      <h3>CSS pronto</h3>
+      <pre class="css-pronto"><code id="css-pronto"></code></pre>
+    </section>
+
+    <noscript>
+      <p class="mensagem erro">O CombinaCor precisa de JavaScript para gerar a paleta.</p>
+    </noscript>
+  </main>
+
+  <aside class="ad-slot" aria-label="Publicidade">
+    <div class="ad-box">Publicidade<br>300 × 250</div>
+  </aside>
+
+  <section class="instructions">
+    <h2>Como usar</h2>
+    <ol>
+      <li>Escolha a cor base no seletor ou digite o código HEX, como <code>#0047AB</code>.</li>
+      <li>Escolha o tipo de paleta. As cores mudam na hora.</li>
+      <li>Copie o código da cor que quiser, ou o bloco de CSS pronto, e cole no seu arquivo CSS.</li>
+    </ol>
+
+    <h2>Tipos de paleta</h2>
+    <dl>
+      <dt>Complementar</dt>
+      <dd>A cor base e a cor do lado oposto do círculo cromático. Dá bastante contraste: boa para destacar um botão ou um link.</dd>
+      <dt>Análoga</dt>
+      <dd>A cor base e as duas vizinhas dela no círculo cromático. As cores são parecidas, e o resultado é suave.</dd>
+      <dt>Tríade</dt>
+      <dd>Três cores com a mesma distância entre si no círculo cromático. Fica colorido e equilibrado.</dd>
+      <dt>Monocromática</dt>
+      <dd>A mesma cor em versões mais escuras e mais claras. Boa para fundos, bordas e textos de um mesmo tema.</dd>
+    </dl>
+
+    <h2>Como usar as cores no CSS</h2>
+    <p>
+      Cole o bloco de CSS pronto no começo do seu arquivo. Cada cor vira uma variável,
+      que você usa com <code>var()</code>:
+    </p>
+    <pre><code>button {
+  background-color: var(--cor-1);
+}</code></pre>
+    <p>HEX, RGB e HSL são três jeitos de escrever a mesma cor. Qualquer um dos três funciona no CSS.</p>
+  </section>
+
+  <footer class="site-footer">
+    <p>Feito por <a href="https://anawebcatt.github.io/ana-portfolio/02-css/">Ana Cattani</a></p>
+  </footer>
+</body>
+</html>
