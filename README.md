@@ -20,9 +20,10 @@ Este repositório tem os dois projetos da disciplina. Os dois são o **mesmo ser
 ```
 .
 ├── projeto-incremental-2/   # versão em JavaScript puro (site estático)
-│   ├── index.html
-│   ├── css/
-│   └── js/
+│   ├── incremento-1/        # cópia completa do site em cada incremento
+│   ├── incremento-2/
+│   ├── ...
+│   └── incremento-7/
 └── projeto-final/           # versão em React ou Angular (próxima etapa)
 ```
 
