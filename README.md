@@ -31,6 +31,8 @@ Este repositório tem os dois projetos da disciplina. Os dois são o **mesmo ser
 
 As duas versões serão publicadas no GitHub Pages, a partir da branch `main`.
 
+O endereço principal, https://anawebcatt.github.io/web1-servico-web-rentavel/, abre direto a versão final do CombinaCor (o [`index.html`](index.html) da raiz redireciona).
+
 - **Projeto Incremental 2 (publicado):** https://anawebcatt.github.io/web1-servico-web-rentavel/projeto-incremental-2/incremento-7/ (os incrementos anteriores ficam em `.../projeto-incremental-2/incremento-N/`)
 
 Autoria: [Ana Cattani](https://anawebcatt.github.io/ana-portfolio/02-css/)
