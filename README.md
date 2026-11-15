@@ -6,7 +6,7 @@ Este repositório tem os dois projetos da disciplina. Os dois são o **mesmo ser
 
 | Parte | Pasta | Tecnologia | Status |
 |---|---|---|---|
-| Projeto Incremental 2 | [`projeto-incremental-2/`](projeto-incremental-2/) | HTML, CSS e JavaScript puro | Em andamento |
+| Projeto Incremental 2 | [`projeto-incremental-2/`](projeto-incremental-2/) | HTML, CSS e JavaScript puro | Feito e publicado |
 | Projeto Final | [`projeto-final/`](projeto-final/) | React ou Angular (a definir) | Não iniciado |
 
 ## Serviço
@@ -29,6 +29,8 @@ Este repositório tem os dois projetos da disciplina. Os dois são o **mesmo ser
 
 ## Publicação
 
-As duas versões serão publicadas no GitHub Pages.
+As duas versões serão publicadas no GitHub Pages, a partir da branch `main`.
+
+- **Projeto Incremental 2 (publicado):** https://anawebcatt.github.io/web1-servico-web-rentavel/projeto-incremental-2/incremento-7/ (os incrementos anteriores ficam em `.../projeto-incremental-2/incremento-N/`)
 
 Autoria: [Ana Cattani](https://anawebcatt.github.io/ana-portfolio/02-css/)
