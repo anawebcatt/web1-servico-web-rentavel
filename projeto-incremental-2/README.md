@@ -14,7 +14,7 @@ Cada pasta tem uma cópia completa do site naquele incremento e funciona sozinha
 |---|---|---|
 | [1. JS básico](incremento-1/) | Variáveis, tipos, operadores, condicionais, loops, funções, arrays e objetos | Feito |
 | [2. DOM e eventos](incremento-2/) | DOM, formulários e eventos | Feito |
-| [3. Persistência](incremento-3/) | `localStorage` | Não iniciado |
+| [3. Persistência](incremento-3/) | `localStorage` | Feito |
 | [4. APIs](incremento-4/) | `fetch`, HTTP e JSON | Não iniciado |
 | [5. Assincronismo e concorrência](incremento-5/) | Promises, `async`/`await`, `Promise.all` | Não iniciado |
 | [6. Web APIs](incremento-6/) | Geolocation, Clipboard, File, Share etc. | Não iniciado |
