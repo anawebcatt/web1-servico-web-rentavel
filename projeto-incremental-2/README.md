@@ -16,7 +16,7 @@ Cada pasta tem uma cópia completa do site naquele incremento e funciona sozinha
 | [2. DOM e eventos](incremento-2/) | DOM, formulários e eventos | Feito |
 | [3. Persistência](incremento-3/) | `localStorage` | Feito |
 | [4. APIs](incremento-4/) | `fetch`, HTTP e JSON | Feito |
-| [5. Assincronismo e concorrência](incremento-5/) | Promises, `async`/`await`, `Promise.all` | Não iniciado |
+| [5. Assincronismo e concorrência](incremento-5/) | Promises, `async`/`await`, `Promise.all` | Feito |
 | [6. Web APIs](incremento-6/) | Geolocation, Clipboard, File, Share etc. | Não iniciado |
 | [7. Publicação e monetização](incremento-7/) | GitHub Pages | Não iniciado |
 
