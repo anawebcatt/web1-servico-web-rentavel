@@ -6,6 +6,8 @@ Gerador de paletas de cores feito só com HTML, CSS e JavaScript puro. A pessoa 
 - **Para quem:** estudantes e devs front-end.
 - **Sem back-end próprio:** publicado como site estático.
 
+**Usar o CombinaCor:** https://anawebcatt.github.io/web1-servico-web-rentavel/projeto-incremental-2/incremento-7/
+
 ## Incrementos
 
 Cada pasta tem uma cópia completa do site naquele incremento e funciona sozinha. O incremento seguinte começa copiando a pasta do anterior, então dá para abrir e comparar qualquer etapa.
@@ -18,9 +20,9 @@ Cada pasta tem uma cópia completa do site naquele incremento e funciona sozinha
 | [4. APIs](incremento-4/) | `fetch`, HTTP e JSON | Feito |
 | [5. Assincronismo e concorrência](incremento-5/) | Promises, `async`/`await`, `Promise.all` | Feito |
 | [6. Web APIs](incremento-6/) | Geolocation, Clipboard, File, Share etc. | Feito |
-| [7. Publicação e monetização](incremento-7/) | GitHub Pages | Não iniciado |
+| [7. Publicação e monetização](incremento-7/) | GitHub Pages | Feito |
 
-O README de cada pasta explica o que foi feito (ou o que está planejado) naquele incremento.
+O README de cada pasta explica o que foi feito naquele incremento. Todos os incrementos ficam publicados no GitHub Pages, cada um no seu endereço (ex.: `.../projeto-incremental-2/incremento-3/`), para dar para comparar as etapas.
 
 ## Como rodar
 
