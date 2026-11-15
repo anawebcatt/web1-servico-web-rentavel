@@ -31,12 +31,14 @@ O repositório inteiro é publicado, então cada pasta vira um endereço:
 
 | O quê | Endereço |
 |---|---|
-| Página inicial do repositório (README) | https://anawebcatt.github.io/web1-servico-web-rentavel/ |
+| Endereço principal (redireciona para a versão final) | https://anawebcatt.github.io/web1-servico-web-rentavel/ |
 | Projeto Incremental 2 (README com a lista dos incrementos) | https://anawebcatt.github.io/web1-servico-web-rentavel/projeto-incremental-2/ |
 | **CombinaCor, versão final** | https://anawebcatt.github.io/web1-servico-web-rentavel/projeto-incremental-2/incremento-7/ |
 | Incrementos anteriores | `.../projeto-incremental-2/incremento-1/` até `.../incremento-6/` |
 
 Os READMEs viram páginas porque o GitHub Pages usa o Jekyll, que transforma o `README.md` de cada pasta sem `index.html` na página inicial dela.
+
+A raiz do repositório tem um [`index.html`](../../index.html) que redireciona para a versão final, então quem abre o endereço principal cai direto no CombinaCor. Por isso o README da raiz não aparece como página; ele continua aparecendo no GitHub.
 
 ### Como ativar
 
