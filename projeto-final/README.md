@@ -15,7 +15,7 @@ Cada pasta tem uma cópia completa do projeto naquele incremento e funciona sozi
 |---|---|---|
 | [1. Migração para framework](incremento-1/) | React: reimplementar o CombinaCor com arquitetura baseada em componentes | Feito |
 | [2. Componentização](incremento-2/) | Componentes, props e reutilização: botão, mensagem, amostra de cor, código copiável | Feito |
-| 3. Estado da aplicação | `useState` e estado local: organizar o que fica em cada componente | A fazer |
+| [3. Estado da aplicação](incremento-3/) | `useState` e estado local: onde mora cada estado e o que é só calculado | Feito |
 | 4. Efeitos e ciclo de vida | `useEffect`: carregamentos, inicialização e atualização de dados | A fazer |
 | 5. Serviços e APIs | `fetch`, serviços e `async`/`await`: reorganizar o consumo da The Color API | A fazer |
 | 6. Navegação | React Router: páginas ou rotas, se fizer sentido (ex.: página de favoritas) | A fazer |

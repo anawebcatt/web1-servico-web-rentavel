@@ -7,7 +7,7 @@ Este repositório tem os dois projetos da disciplina. Os dois são o **mesmo ser
 | Parte | Pasta | Tecnologia | Status |
 |---|---|---|---|
 | Projeto Incremental 2 | [`projeto-incremental-2/`](projeto-incremental-2/) | HTML, CSS e JavaScript puro | Feito e publicado |
-| Projeto Final | [`projeto-final/`](projeto-final/) | React (com Vite) | Em andamento: incremento 2 de 7 |
+| Projeto Final | [`projeto-final/`](projeto-final/) | React (com Vite) | Em andamento: incremento 3 de 7 |
 
 ## Serviço
 
@@ -26,7 +26,8 @@ Este repositório tem os dois projetos da disciplina. Os dois são o **mesmo ser
 │   └── incremento-7/
 └── projeto-final/           # versão em React
     ├── incremento-1/        # cópia completa do projeto em cada incremento
-    └── incremento-2/
+    ├── incremento-2/
+    └── incremento-3/
 ```
 
 ## Publicação
