@@ -1,6 +1,6 @@
 # CombinaCor — Projeto Final (React)
 
-**Status:** em andamento. Continua o [Projeto Incremental 2](../projeto-incremental-2/).
+**Status:** os 7 incrementos estão feitos; falta ligar a publicação na Cloudflare Pages ([passo a passo](incremento-7/#publicação-na-cloudflare-pages)). Continua o [Projeto Incremental 2](../projeto-incremental-2/).
 
 Reimplementação do CombinaCor com um framework moderno. Não é um produto novo: a geração de paletas, a The Color API, o `localStorage`, a Clipboard API e o conta-gotas continuam. O que muda é a organização, que passa a usar componentes, props, estado, eventos e ciclo de vida no lugar da manipulação direta do DOM.
 
@@ -19,7 +19,7 @@ Cada pasta tem uma cópia completa do projeto naquele incremento e funciona sozi
 | [4. Efeitos e ciclo de vida](incremento-4/) | `useEffect`: efeitos em hooks próprios, título da aba e detecção de conexão | Feito |
 | [5. Serviços e APIs](incremento-5/) | `fetch`, serviços e `async`/`await`: serviço da The Color API, nova tentativa e cancelamento | Feito |
 | [6. Navegação](incremento-6/) | React Router: páginas de gerador, favoritas e como usar, e link de paleta | Feito |
-| 7. Qualidade e publicação | Build, deploy e comparação com a versão em JavaScript puro | A fazer |
+| [7. Qualidade e publicação](incremento-7/) | Build, publicação na Cloudflare Pages, SEO, testes e comparação com a versão em JavaScript puro | Feito |
 
 O README de cada pasta explica o que foi feito naquele incremento.
 
@@ -28,7 +28,7 @@ O README de cada pasta explica o que foi feito naquele incremento.
 É preciso ter o [Node.js](https://nodejs.org/) 20.19 ou mais novo. Cada incremento é um projeto separado:
 
 ```bash
-cd projeto-final/incremento-1
+cd projeto-final/incremento-7
 npm install
 npm run dev
 ```
