@@ -46,7 +46,7 @@ O `App.jsx` e a pasta `src/lib/` continuam como no incremento 1 (o `App` só pas
 
 | Componente | Propriedades | Onde é usado |
 |---|---|---|
-| [`Botao`](src/components/comuns/Botao.jsx) | `pequeno`, `type`, `children` e o que mais um `<button>` aceita (`onClick`, `disabled`, `aria-*`) | 7 lugares: conta-gotas, salvar nas favoritas, copiar CSS, buscar ideias, usar e remover favorita |
+| [`Botao`](src/components/comuns/Botao.jsx) | `pequeno`, `type`, `children` e o que mais um `<button>` aceita (`onClick`, `disabled`, `aria-*`) | 6 lugares: conta-gotas, salvar nas favoritas, copiar CSS, buscar ideias, usar e remover favorita |
 | [`Mensagem`](src/components/comuns/Mensagem.jsx) | `tipo` (`'aviso'` ou `'erro'`), `id`, `children` | 5 lugares: erro do HEX, aviso de cor neutra, aviso dos nomes, status das ideias, falha ao salvar |
 | [`Amostra`](src/components/comuns/Amostra.jsx) | `hex`, `className` | Paleta (grande), ideias (média) e favoritas (miniatura) |
 | [`NomeDaCor`](src/components/comuns/NomeDaCor.jsx) | `cor`, `className` | Paleta e ideias |
