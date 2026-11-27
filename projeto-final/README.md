@@ -17,7 +17,7 @@ Cada pasta tem uma cópia completa do projeto naquele incremento e funciona sozi
 | [2. Componentização](incremento-2/) | Componentes, props e reutilização: botão, mensagem, amostra de cor, código copiável | Feito |
 | [3. Estado da aplicação](incremento-3/) | `useState` e estado local: onde mora cada estado e o que é só calculado | Feito |
 | [4. Efeitos e ciclo de vida](incremento-4/) | `useEffect`: efeitos em hooks próprios, título da aba e detecção de conexão | Feito |
-| 5. Serviços e APIs | `fetch`, serviços e `async`/`await`: reorganizar o consumo da The Color API | A fazer |
+| [5. Serviços e APIs](incremento-5/) | `fetch`, serviços e `async`/`await`: serviço da The Color API, nova tentativa e cancelamento | Feito |
 | 6. Navegação | React Router: páginas ou rotas, se fizer sentido (ex.: página de favoritas) | A fazer |
 | 7. Qualidade e publicação | Build, deploy e comparação com a versão em JavaScript puro | A fazer |
 
