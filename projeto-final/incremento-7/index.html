@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CombinaCor | Gerador de paletas de cores</title>
+    <meta
+      name="description"
+      content="Escolha uma cor e gere uma paleta de cores que combinam, com os códigos HEX, RGB e HSL prontos para o CSS."
+    />
+    <meta name="theme-color" content="#1f2328" />
+    <!-- %URL_DO_SITE% é trocado pelo endereço do site na hora do build (veja vite.config.js). -->
+    <link rel="canonical" href="%URL_DO_SITE%/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <!-- Prévia do link ao compartilhar (WhatsApp, LinkedIn, Discord etc.). -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="CombinaCor" />
+    <meta property="og:title" content="CombinaCor | Gerador de paletas de cores" />
+    <meta
+      property="og:description"
+      content="Escolha uma cor e veja cores que combinam com ela, com os códigos prontos para o CSS."
+    />
+    <meta property="og:url" content="%URL_DO_SITE%/" />
+    <meta property="og:image" content="%URL_DO_SITE%/og-imagem.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Dados estruturados: dizem aos buscadores que a página é uma ferramenta gratuita. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "CombinaCor",
+        "description": "Gerador de paletas de cores com os códigos HEX, RGB e HSL prontos para o CSS.",
+        "url": "%URL_DO_SITE%/",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Qualquer navegador",
+        "inLanguage": "pt-BR",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BRL" },
+        "author": {
+          "@type": "Person",
+          "name": "Ana Cattani",
+          "url": "https://anawebcatt.github.io/ana-portfolio/02-css/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- A página inteira é montada pelo React dentro desta div (veja src/main.jsx). -->
+    <div id="root"></div>
+    <noscript>
+      <p class="mensagem erro">O CombinaCor precisa de JavaScript para gerar a paleta.</p>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
