@@ -71,7 +71,7 @@ O `App.jsx` e a pasta `src/lib/` continuam como no incremento 1 (o `App` só pas
 
 ## O que ainda não mudou
 
-O estado continua concentrado no `App`, que passa muitas propriedades para o `Formulario` (e ele repassa quase todas para o `CampoCor`). Organizar o que fica em cada componente é o assunto do incremento 3.
+O estado continua concentrado no `App`, que passa muitas propriedades para o `Formulario` (e ele repassa quase todas para o `CampoCor`). Organizar o que fica em cada componente é o assunto do [incremento 3](../incremento-3/).
 
 Uma diferença pequena de comportamento: a mensagem de erro das ideias passou a usar `role="alert"` (antes era `role="status"`), porque agora todo erro passa pelo componente `Mensagem`.
 
