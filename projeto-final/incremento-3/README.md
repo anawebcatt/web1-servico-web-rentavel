@@ -99,7 +99,7 @@ Se a pessoa digita um HEX inválido e depois usa uma favorita que tem **a mesma 
 
 ## O que ainda não mudou
 
-Os três `useEffect` do `App` (nomes das cores, evento `storage` e aviso de cópia) continuam como no incremento 1. Eles são o assunto do incremento 4.
+Os três `useEffect` do `App` (nomes das cores, evento `storage` e aviso de cópia) continuam como no incremento 1. Eles são o assunto do [incremento 4](../incremento-4/).
 
 ## Como rodar
 
