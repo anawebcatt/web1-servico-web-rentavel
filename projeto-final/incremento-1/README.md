@@ -46,7 +46,7 @@ incremento-1/
         └── recursos.js
 ```
 
-Nesta etapa há um componente para cada região da página. Separar em partes menores e reutilizáveis (amostra de cor, botão de copiar, mensagens) fica para o [incremento 2](../).
+Nesta etapa há um componente para cada região da página. Separar em partes menores e reutilizáveis (amostra de cor, botão de copiar, mensagens) fica para o [incremento 2](../incremento-2/).
 
 ## Do JavaScript puro para o React
 
