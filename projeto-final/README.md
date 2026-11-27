@@ -1,6 +1,6 @@
 # CombinaCor — Projeto Final (React)
 
-**Status:** os 7 incrementos estão feitos; falta ligar a publicação na Cloudflare Pages ([passo a passo](incremento-7/#publicação-na-cloudflare-pages)). Continua o [Projeto Incremental 2](../projeto-incremental-2/).
+**Status:** os 7 incrementos estão feitos; falta ligar a publicação na Cloudflare Pages. Continua o [Projeto Incremental 2](../projeto-incremental-2/).
 
 Reimplementação do CombinaCor com um framework moderno. Não é um produto novo: a geração de paletas, a The Color API, o `localStorage`, a Clipboard API e o conta-gotas continuam. O que muda é a organização, que passa a usar componentes, props, estado, eventos e ciclo de vida no lugar da manipulação direta do DOM.
 

@@ -41,6 +41,6 @@ O Projeto Incremental 2 é publicado no GitHub Pages, direto da branch `main`. O
 O endereço principal, https://anawebcatt.github.io/web1-servico-web-rentavel/, abre direto a versão em JavaScript puro do CombinaCor (o [`index.html`](index.html) da raiz redireciona).
 
 - **Projeto Incremental 2 (publicado):** https://anawebcatt.github.io/web1-servico-web-rentavel/projeto-incremental-2/incremento-7/ (os incrementos anteriores ficam em `.../projeto-incremental-2/incremento-N/`)
-- **Projeto Final (endereço previsto):** https://combinacor.pages.dev, a partir de [`projeto-final/incremento-7/`](projeto-final/incremento-7/). O [README do incremento](projeto-final/incremento-7/) tem o passo a passo da publicação e a comparação entre as duas versões.
+- **Projeto Final (endereço previsto):** https://combinacor.pages.dev, a partir de [`projeto-final/incremento-7/`](projeto-final/incremento-7/). O [README do incremento](projeto-final/incremento-7/) explica a publicação e traz a comparação entre as duas versões.
 
 Autoria: [Ana Cattani](https://anawebcatt.github.io/ana-portfolio/02-css/)

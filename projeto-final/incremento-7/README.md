@@ -6,7 +6,7 @@
 
 **Objetivo:** publicar a nova versão e comparar com a implementação anterior em JavaScript puro.
 
-**Endereço previsto:** https://combinacor.pages.dev (passa a funcionar depois do passo a passo de [Publicação](#publicação-na-cloudflare-pages))
+**Endereço previsto:** https://combinacor.pages.dev
 
 ## O que muda nesta versão
 
@@ -67,35 +67,14 @@ A pasta `dist/` não vai para o repositório (está no `.gitignore`): quem faz o
 
 A Cloudflare Pages lê o repositório no GitHub, roda o build e publica a pasta `dist/`. Depois de configurada, cada merge na `main` publica de novo sozinho.
 
-### Passo a passo
+O projeto na Cloudflare usa a pasta `projeto-final/incremento-7` como raiz, o comando `npm run build` e publica a pasta `dist`.
 
-As telas da Cloudflare mudam de vez em quando; os nomes abaixo podem estar um pouco diferentes.
-
-1. Crie uma conta gratuita em https://dash.cloudflare.com/sign-up.
-2. No painel, abra **Workers & Pages**, clique em **Create** e escolha a aba **Pages**.
-3. Escolha **Connect to Git**, autorize o GitHub e selecione o repositório `web1-servico-web-rentavel`.
-4. Preencha a configuração:
-
-   | Campo | Valor |
-   |---|---|
-   | Project name | `combinacor` |
-   | Production branch | `main` |
-   | Framework preset | `React (Vite)` (ou `None`) |
-   | Build command | `npm run build` |
-   | Build output directory | `dist` |
-   | Root directory (em "Advanced") | `projeto-final/incremento-7` |
-
-5. Clique em **Save and Deploy** e espere o build terminar (cerca de 1 minuto).
-6. Abra o endereço que aparecer. Se o nome `combinacor` estiver livre, será https://combinacor.pages.dev.
-
-### Se o endereço for outro
-
-Se a Cloudflare der um endereço diferente (o nome pode já estar em uso), troque a constante `URL_DO_SITE` no começo do [`vite.config.js`](vite.config.js) e faça o merge. O endereço canônico, a prévia do link, o `robots.txt` e o `sitemap.xml` são preenchidos a partir dela.
+O endereço do site fica na constante `URL_DO_SITE`, no começo do [`vite.config.js`](vite.config.js). O endereço canônico, a prévia do link, o `robots.txt` e o `sitemap.xml` são preenchidos a partir dela.
 
 ### Por que funciona
 
 - **Rotas:** quando o endereço não corresponde a um arquivo (como `/favoritas`) e o site não tem um `404.html`, a Cloudflare Pages entrega o `index.html`. O React Router lê o endereço e mostra a página certa. Por isso recarregar em `/favoritas` funciona.
-- **Pasta do projeto:** o repositório tem vários projetos. O campo "Root directory" diz à Cloudflare para rodar o `npm install` e o build só nesta pasta.
+- **Pasta do projeto:** o repositório tem vários projetos, então a Cloudflare é configurada para rodar o `npm install` e o build só nesta pasta.
 - **Versão do Node:** o arquivo `.nvmrc` pede o Node 20, que o Vite 8 exige.
 - **HTTPS:** vem ligado, o que a Clipboard API exige.
 
