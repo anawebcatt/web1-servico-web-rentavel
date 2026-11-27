@@ -18,7 +18,7 @@ Cada pasta tem uma cópia completa do projeto naquele incremento e funciona sozi
 | [3. Estado da aplicação](incremento-3/) | `useState` e estado local: onde mora cada estado e o que é só calculado | Feito |
 | [4. Efeitos e ciclo de vida](incremento-4/) | `useEffect`: efeitos em hooks próprios, título da aba e detecção de conexão | Feito |
 | [5. Serviços e APIs](incremento-5/) | `fetch`, serviços e `async`/`await`: serviço da The Color API, nova tentativa e cancelamento | Feito |
-| 6. Navegação | React Router: páginas ou rotas, se fizer sentido (ex.: página de favoritas) | A fazer |
+| [6. Navegação](incremento-6/) | React Router: páginas de gerador, favoritas e como usar, e link de paleta | Feito |
 | 7. Qualidade e publicação | Build, deploy e comparação com a versão em JavaScript puro | A fazer |
 
 O README de cada pasta explica o que foi feito naquele incremento.
