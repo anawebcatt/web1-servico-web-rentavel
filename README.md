@@ -7,7 +7,7 @@ Este repositório tem os dois projetos da disciplina. Os dois são o **mesmo ser
 | Parte | Pasta | Tecnologia | Status |
 |---|---|---|---|
 | Projeto Incremental 2 | [`projeto-incremental-2/`](projeto-incremental-2/) | HTML, CSS e JavaScript puro | Feito e publicado |
-| Projeto Final | [`projeto-final/`](projeto-final/) | React (com Vite) | Feito; publicação na Cloudflare Pages a ligar |
+| Projeto Final | [`projeto-final/`](projeto-final/) | React (com Vite) | Feito e publicado |
 
 ## Serviço
 
@@ -38,9 +38,9 @@ Este repositório tem os dois projetos da disciplina. Os dois são o **mesmo ser
 
 O Projeto Incremental 2 é publicado no GitHub Pages, direto da branch `main`. O Projeto Final precisa de build e é publicado na Cloudflare Pages, que lê este mesmo repositório.
 
-O endereço principal, https://anawebcatt.github.io/web1-servico-web-rentavel/, abre direto a versão em JavaScript puro do CombinaCor (o [`index.html`](index.html) da raiz redireciona).
+O endereço principal, https://anawebcatt.github.io/web1-servico-web-rentavel/, abre direto a versão em React, na Cloudflare Pages (o [`index.html`](index.html) da raiz redireciona).
 
 - **Projeto Incremental 2 (publicado):** https://anawebcatt.github.io/web1-servico-web-rentavel/projeto-incremental-2/incremento-7/ (os incrementos anteriores ficam em `.../projeto-incremental-2/incremento-N/`)
-- **Projeto Final (endereço previsto):** https://combinacor.pages.dev, a partir de [`projeto-final/incremento-7/`](projeto-final/incremento-7/). O [README do incremento](projeto-final/incremento-7/) explica a publicação e traz a comparação entre as duas versões.
+- **Projeto Final (publicado):** https://combinacor.pages.dev, a partir de [`projeto-final/incremento-7/`](projeto-final/incremento-7/). O [README do incremento](projeto-final/incremento-7/) explica a publicação e traz a comparação entre as duas versões.
 
 Autoria: [Ana Cattani](https://anawebcatt.github.io/ana-portfolio/02-css/)

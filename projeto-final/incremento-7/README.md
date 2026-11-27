@@ -1,12 +1,12 @@
 # Incremento 7 — Qualidade e publicação
 
-**Status:** pronto para publicar. Começou como uma cópia do [incremento 6](../incremento-6/).
+**Status:** feito e publicado. Começou como uma cópia do [incremento 6](../incremento-6/).
 
 **Foco:** organização, build e deploy.
 
 **Objetivo:** publicar a nova versão e comparar com a implementação anterior em JavaScript puro.
 
-**Endereço previsto:** https://combinacor.pages.dev
+**Endereço:** https://combinacor.pages.dev
 
 ## O que muda nesta versão
 
@@ -80,7 +80,7 @@ O endereço do site fica na constante `URL_DO_SITE`, no começo do [`vite.config
 
 ### O que continua no GitHub Pages
 
-O Projeto Incremental 2 continua publicado como estava, em https://anawebcatt.github.io/web1-servico-web-rentavel/projeto-incremental-2/incremento-7/. O endereço principal do repositório ainda redireciona para ele; depois que a versão React estiver no ar, o [`index.html`](../../index.html) da raiz pode passar a apontar para ela.
+O Projeto Incremental 2 continua publicado como estava, em https://anawebcatt.github.io/web1-servico-web-rentavel/projeto-incremental-2/incremento-7/. O endereço principal do repositório (o [`index.html`](../../index.html) da raiz) agora redireciona para a versão React.
 
 ## SEO
 
